@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <stdbool.h>
+int main(int argc, char* argv[]) {
+ int
+i=0;
+ while(true)
+
+{
+ printf("Pid %d: %d
+\n", getpid(), ++
+i);
+ sleep(1);
+
+}
+ return 0; }
